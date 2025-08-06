@@ -19,12 +19,15 @@ nltk.download('wordnet')
 
 MAX_LEN = 128
 
-LSTM_MODEL_PATH = "../models/lstm.keras"
-LSTM_TOKENIZER_PATH = "../models/token/lstm_tokenizer.pkl"
-BERT_MODEL_PATH = "../models/bert.keras"
-BERT_TOKENIZER_PATH = "../models/token/bert_tokenizer"
-BERT_THRESHOLDS_PATH = "../models/thresholds/thresholds_bert.npy"
-LSTM_THRESHOLDS_PATH = "../models/thresholds/thresholds_lstm.npy"
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) 
+LSTM_MODEL_PATH = os.path.join(BASE_DIR, "models", "lstm.keras")
+BERT_MODEL_PATH = os.path.join(BASE_DIR, "models", "bert.keras")
+LSTM_TOKENIZER_PATH = os.path.join(BASE_DIR, "models", "token", "lstm_tokenizer.pkl")
+BERT_TOKENIZER_PATH = os.path.join(BASE_DIR, "models", "token", "bert_tokenizer")
+BERT_THRESHOLDS_PATH = os.path.join(BASE_DIR, "models", "thresholds", "thresholds_bert.npy")
+LSTM_THRESHOLDS_PATH = os.path.join(BASE_DIR, "models", "thresholds", "thresholds_lstm.npy")
+
 
 emo_list = [
     "admiration", "amusement", "anger", "annoyance", "approval", "caring",

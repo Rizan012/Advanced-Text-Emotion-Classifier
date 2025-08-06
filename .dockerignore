@@ -1,0 +1,11 @@
+tfenv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+*.git
+*.gitignore
+.env
+.vscode/
+.DS_Store

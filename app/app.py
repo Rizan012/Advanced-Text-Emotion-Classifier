@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from predict import clean, predict_bert, predict_lstm
+from .predict import clean, predict_bert, predict_lstm
 
 app = FastAPI(title="Emotion Classifier API")
 
