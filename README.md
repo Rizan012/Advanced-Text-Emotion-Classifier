@@ -1,5 +1,5 @@
 # Advanced Text Emotion Classifier
-
+[note: The model file is uploaded in google dirve download it (https://drive.google.com/drive/folders/1puNc0X4TrbkVSFTVO5VM1SkJWj3WxUzF?usp=drive_link) and paste it on the root folder]
 ---
 
 ## Overview
@@ -11,8 +11,6 @@ The *Advanced Text Emotion Classifier* is a multi-label emotion detection system
 ## Dataset
 
 This project uses a cleaned version of the **GoEmotions dataset**, which contains over 54,000 Reddit comments annotated with 27 distinct emotions plus a neutral label. Each comment can have multiple emotion labels, making it a multi-label classification task. The dataset includes columns such as raw text, cleaned text, class lists, and one-hot encoded emotion vectors.
-
-note: The model file is uploaded in google dirve downlad it : https://drive.google.com/drive/folders/1puNc0X4TrbkVSFTVO5VM1SkJWj3WxUzF?usp=drive_link and paste it on the root folder
 
 ---
 
