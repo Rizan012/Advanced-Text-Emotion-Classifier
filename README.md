@@ -147,11 +147,37 @@ We generated 28 confusion matrices per model to assess class-level performance. 
 > [Click here to view all confusion matrices for DistilBERT](./confusion_matrices/distilbert/)  
 > [Click here to view all confusion matrices for LSTM](./confusion_matrices/lstm/)
 
-
 ---
 
 ## Conclusion
 
 While both models are capable of detecting emotional content in text, **DistilBERT outperforms LSTM** in terms of overall F1-score, precision, and per-class robustness. Its transformer-based architecture allows it to capture richer semantic patterns, making it the preferred choice for this multi-label emotion classification task.
+
+---
+
+## Using the Docker Image
+
+The Emotion Classifier API is also available as a Docker image on Docker Hub for easy deployment and testing.
+
+To run the API locally using Docker, follow these steps:
+
+1. **Pull the Docker image:**
+
+```bash
+docker pull rizan0120/emotion-api:
+```
+
+2. **Run the container:**
+
+```bash
+docker pull rizan0120/emotion-api:latest
+```
+This will start the API server on port 8000
+
+2. **Access the API:**
+
+Open your browser or API client (e.g., Postman) and send requests to:
+
+http://localhost:8000
 
 ---
