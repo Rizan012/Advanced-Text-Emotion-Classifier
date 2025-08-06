@@ -130,29 +130,19 @@ This project uses a cleaned version of the **GoEmotions dataset**, which contain
 
 ### Confusion Matrices
 
-We generated 28 confusion matrices per model to assess class-level performance. Below are representative examples:
+We generated 28 confusion matrices per model to assess class-level performance. Below are some example confusion matrices from the models:
 
 #### DistilBERT Samples
 
-**Best (Gratitude)**  
-![DistilBERT - Gratitude](eval/bert/16.png)
-
-**Worst (Grief)**  
-![DistilBERT - Grief](eval/bert/17.png)
-
-**Moderate (Joy)**  
+![DistilBERT - Gratitude](eval/bert/16.png)  
+![DistilBERT - Grief](eval/bert/17.png)  
 ![DistilBERT - Joy](eval/bert/18.png)
 
 #### LSTM Samples
 
-**Best (Gratitude)**  
-![LSTM - Gratitude](eval/lstm/cm_gratitude.png)
-
-**Worst (Grief)**  
-![LSTM - Grief](eval/lstm/cm_grief.png)
-
-**Moderate (Joy)**  
-![LSTM - Joy](eval/lstm/cm_joy.png)
+![LSTM - Gratitude](eval/lstm/16.png)  
+![LSTM - Grief](eval/lstm/17.png)  
+![LSTM - Joy](eval/lstm/18.png)
 
 > [Click here to view all confusion matrices for DistilBERT](./confusion_matrices/distilbert/)  
 > [Click here to view all confusion matrices for LSTM](./confusion_matrices/lstm/)
